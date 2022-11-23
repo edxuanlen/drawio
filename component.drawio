@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T08:11:56.580Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8vwQj_Z4jMFqen6O0WUm" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T08:15:46.304Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="OIMUJjRZCF11LyErw2uF" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="590" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8200" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -365,6 +365,57 @@
               <mxPoint x="650" y="1591" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-177" value="ENUM AppStatusType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1350" y="416" width="210" height="442" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-178" value=" INVALID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-188" value="CalibFileNull // 标定错误" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-195" value="BLOCKED // 遮挡" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-196" value="GLARE // 炫光" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="104" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-197" value="ImgDataNull // 传感器数据丢失" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="130" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-187" value="VedDataNull // ved数据丢失" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="156" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-186" value="SWCERR // swc异常" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="182" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-185" value="SDKERR // sdk异常" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="208" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-190" value="IDLE // idle模式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="234" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-191" value="CancelBLOCKED // 遮挡恢复" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="260" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-192" value="CancelGLARE // 炫光恢复" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="286" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-193" value="CancelImgDataNull // 传感器数据恢复&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="312" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-194" value="CancelVedDataNull // ved数据恢复&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="338" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-184" value="CancelSWCERR // swc异常恢复&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="364" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-183" value="CancelSDKERR // sdk异常恢复" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="390" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-182" value="CancelIDLE // idle模式恢复" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-177">
+          <mxGeometry y="416" width="210" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
