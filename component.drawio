@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T11:37:35.809Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XiyZmn0A9hawvNisj6Ul" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T11:40:33.032Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GpVF_QVHfheQOLxIlPFL" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="9750" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8200" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -598,9 +598,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-337" value="PerceptionCameraPipeline" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1160" y="2350" width="460" height="126" as="geometry" />
+          <mxGeometry x="1160" y="2340" width="460" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-338" value="- frame_: Frame *&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-337">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-338" value="- frame_: Frame *" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-337">
           <mxGeometry y="26" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-341" value="- proxy_ :Proxy *" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-337">
@@ -611,6 +611,39 @@
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-340" value="empty" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-337">
           <mxGeometry y="96" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTr-Pit7XFirMjPEWSAB-326" target="mTr-Pit7XFirMjPEWSAB-337">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="2231" />
+              <mxPoint x="1140" y="2310" />
+              <mxPoint x="1390" y="2310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-351" value="Porxy" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="2500" width="460" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-352" value="+ RawImageDataProxyImpl: shared_ptr&lt;GenericProxy&lt;shared_ptr&lt;RawImageData&gt;&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-351">
+          <mxGeometry y="26" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-358" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-351">
+          <mxGeometry y="56" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-354" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-351">
+          <mxGeometry y="86" width="460" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-355" value="empty" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-351">
+          <mxGeometry y="96" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-360" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTr-Pit7XFirMjPEWSAB-341" target="mTr-Pit7XFirMjPEWSAB-351">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="2411" />
+              <mxPoint x="1140" y="2480" />
+              <mxPoint x="1390" y="2480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
