@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T07:47:31.067Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WhCVCojGtspQF3Fogkun" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T07:49:58.326Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2ypERjy7ynzg04RmPRTs" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="590" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8200" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -96,7 +96,7 @@
           <mxGeometry y="66" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-62" value="sensetime::interface::CameraObjectDetectionBase" style="swimlane;fontStyle=0;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="210" width="460" height="1526" as="geometry" />
+          <mxGeometry x="680" y="210" width="460" height="1646" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-94" value="- m_camDetBase : Adsfi::CameraDetBase " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="26" width="460" height="30" as="geometry" />
@@ -167,107 +167,119 @@
         <mxCell id="mTr-Pit7XFirMjPEWSAB-118" value="# CameraTSLRsender_:unique_ptr&lt;CameraTSLRSendBase&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="696" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-117" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-117" value="# GeneralFreeSpacesender_:unique_ptr&lt;GeneralFreeSpaceSendBase&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="726" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-132" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-132" value="# VisionOddsender_:unique_ptr&lt;VisionOddSendBase&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="756" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-131" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-131" value="# instance_id2camera_name : std::unordered_map&lt;uint32, string&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="786" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-130" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-130" value="# camera_name2instance_id ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="816" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-129" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-129" value="# camera_node2PilotProcessinstance_id :unordered_map&lt;std::string, UInt16&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="846" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-128" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-128" value="# camera_name2road_instance_id : unordered_map&lt;std::string, uint32_t&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="876" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="906" width="460" height="10" as="geometry" />
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-136" value="# camera_name2tslr_instance_id:unordered_map&lt;std::string, uint32_t&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="906" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-65" value="+ StartSubThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="916" width="460" height="20" as="geometry" />
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-135" value="# camera_names_: vector&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="936" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-70" value="+ StartPubThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="936" width="460" height="20" as="geometry" />
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-134" value="# thread_pool_ : vector&lt;thread&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="966" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-69" value="+ CheckAndGetCameraData(CheckAndGetCameraData(&#xa;        std::unordered_map&lt;std::string, std::shared_ptr&lt;Adsfi::ImageData&gt;&gt;&amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="956" width="460" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-68" value="+ SendInternalPerceptionObject(&#xa;        std::shared_ptr&lt;gac::InternalPerceptionObject&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-133" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="996" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-73" value="+ SendInternalTSLR(const uint32_t instanceId,&#xa;                          std::shared_ptr&lt;gac::InternalTSLR&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1026" width="460" height="30" as="geometry" />
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1026" width="460" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-72" value="+ SendFusionLane(std::shared_ptr&lt;gac::FusionLane&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-65" value="+ StartSubThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1036" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-70" value="+ StartPubThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1056" width="460" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-69" value="+ CheckAndGetCameraData(CheckAndGetCameraData(&#xa;        std::unordered_map&lt;std::string, std::shared_ptr&lt;Adsfi::ImageData&gt;&gt;&amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1076" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-68" value="+ SendInternalPerceptionObject(&#xa;        std::shared_ptr&lt;gac::InternalPerceptionObject&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1116" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-73" value="+ SendInternalTSLR(const uint32_t instanceId,&#xa;                          std::shared_ptr&lt;gac::InternalTSLR&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1146" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-72" value="+ SendFusionLane(std::shared_ptr&lt;gac::FusionLane&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1176" width="460" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-71" value="+ SendInternalRoadStructure(const uint32_t instanceId,&#xa;        std::shared_ptr&lt;gac::InternalRoadStructure&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1076" width="460" height="30" as="geometry" />
+          <mxGeometry y="1196" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-79" value="+ SendVisionObstacle(&#xa;        std::shared_ptr&lt;gac::VisionObstacle&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1106" width="460" height="30" as="geometry" />
+          <mxGeometry y="1226" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-78" value="+  SendCameraTSLR(std::shared_ptr&lt;gac::CameraTSLR&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1136" width="460" height="20" as="geometry" />
+          <mxGeometry y="1256" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-77" value="+ SendGeneralFreeSpace(&#xa;        std::shared_ptr&lt;gac::GeneralFreeSpace&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1156" width="460" height="30" as="geometry" />
+          <mxGeometry y="1276" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-76" value="+ SendVisionODD(std::shared_ptr&lt;gac::VisionOdd&gt; &amp;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1186" width="460" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-80" value="+ Init(Adsfi::HafContext &amp;):  Adsfi::HafStatus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1206" width="460" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-75" value="+ Process()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1226" width="460" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-74" value="+ Stop()    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1246" width="460" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-83" value="+ IsStop()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1266" width="460" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-82" value="- CameraReceiveThread(const uint32_t )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
-          <mxGeometry y="1286" width="460" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-98" value="- LocalLocalizationReceiveThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1306" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-97" value="- PilotProcessStatesReceiveThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-80" value="+ Init(Adsfi::HafContext &amp;):  Adsfi::HafStatus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1326" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-96" value="- chassisGacA13AcanReceiveThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-75" value="+ Process()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1346" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-95" value="- VisionOddDataReceive()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-74" value="+ Stop()    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1366" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-81" value="- ParsingInstanceId(const Adsfi::HafYamlNode &amp;): Adsfi::HafStatus " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-83" value="+ IsStop()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1386" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-104" value="- IsInsIdxValid() const : bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-82" value="- CameraReceiveThread(const uint32_t )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1406" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-103" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-98" value="- LocalLocalizationReceiveThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1426" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-102" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-97" value="- PilotProcessStatesReceiveThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1446" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-96" value="- chassisGacA13AcanReceiveThread()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1466" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-95" value="- VisionOddDataReceive()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1486" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mTr-Pit7XFirMjPEWSAB-99" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-81" value="- ParsingInstanceId(const Adsfi::HafYamlNode &amp;): Adsfi::HafStatus " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
           <mxGeometry y="1506" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-104" value="- IsInsIdxValid() const : bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1526" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-103" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1546" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-102" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1566" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1586" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1606" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mTr-Pit7XFirMjPEWSAB-99" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="mTr-Pit7XFirMjPEWSAB-62">
+          <mxGeometry y="1626" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTr-Pit7XFirMjPEWSAB-54" target="mTr-Pit7XFirMjPEWSAB-75">
           <mxGeometry relative="1" as="geometry" />
