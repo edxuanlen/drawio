@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T03:27:38.447Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GkGX5ySNpOHrH8lswg2d" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T03:29:27.890Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ouLwJz5rGpiPDK7zzoh7" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="9697" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8200" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -857,6 +857,22 @@
         <mxCell id="neHLebJFJk5EQAtmWMn2-73" value="GeneralInterface Init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1895" y="995" width="102.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="neHLebJFJk5EQAtmWMn2-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="neHLebJFJk5EQAtmWMn2-75" target="neHLebJFJk5EQAtmWMn2-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="neHLebJFJk5EQAtmWMn2-94" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="neHLebJFJk5EQAtmWMn2-93">
+          <mxGeometry x="0.2432" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neHLebJFJk5EQAtmWMn2-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="neHLebJFJk5EQAtmWMn2-75" target="neHLebJFJk5EQAtmWMn2-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="neHLebJFJk5EQAtmWMn2-96" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="neHLebJFJk5EQAtmWMn2-95">
+          <mxGeometry x="0.1804" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="neHLebJFJk5EQAtmWMn2-75" value="LocalizationQuerier" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2727.5" y="164" width="160" height="86" as="geometry" />
         </mxCell>
@@ -874,8 +890,8 @@
             <mxPoint x="-17.5" y="156" as="sourcePoint" />
             <mxPoint x="142.5" y="156" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="80.5" y="-54" />
-              <mxPoint x="202.5" y="-54" />
+              <mxPoint x="80.5" y="-14" />
+              <mxPoint x="202.5" y="-14" />
               <mxPoint x="202.5" y="73" />
             </Array>
           </mxGeometry>
