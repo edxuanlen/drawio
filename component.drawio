@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T06:47:05.248Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6RGjdXCai6r5ZEqrEguA" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T08:36:12.981Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0lolUKnrKe3nD7nUFMer" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="9493" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8200" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -730,7 +730,7 @@
         <mxCell id="neHLebJFJk5EQAtmWMn2-3" value="+ Init(Adsfi::HafContext &amp;): HafStatus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="neHLebJFJk5EQAtmWMn2-0">
           <mxGeometry y="128" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="neHLebJFJk5EQAtmWMn2-56" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="neHLebJFJk5EQAtmWMn2-0">
+        <mxCell id="neHLebJFJk5EQAtmWMn2-56" value="+ ObstacleFusionBase::DataReceive(int id)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="neHLebJFJk5EQAtmWMn2-0">
           <mxGeometry y="158" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="neHLebJFJk5EQAtmWMn2-4" value="PerceptionAggregatorWrapper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1018,7 +1018,7 @@
           <mxGeometry x="2670" y="1480" width="265" height="30" as="geometry" />
         </mxCell>
         <mxCell id="neHLebJFJk5EQAtmWMn2-129" value="FusionObstacleSendBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2820" y="590" width="240" height="86" as="geometry" />
+          <mxGeometry x="2830" y="578" width="240" height="86" as="geometry" />
         </mxCell>
         <mxCell id="neHLebJFJk5EQAtmWMn2-130" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="neHLebJFJk5EQAtmWMn2-129">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
