@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T03:58:39.073Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gz_pfzMgw9fJYyUS5Agn" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T06:17:45.491Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="obwCKIEWJZr-gYQ0AlJ4" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="9697" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8200" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -823,6 +823,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="neHLebJFJk5EQAtmWMn2-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="neHLebJFJk5EQAtmWMn2-52" target="neHLebJFJk5EQAtmWMn2-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2308" y="1170" />
+              <mxPoint x="2520" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="neHLebJFJk5EQAtmWMn2-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="neHLebJFJk5EQAtmWMn2-52" target="neHLebJFJk5EQAtmWMn2-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2308" y="1170" />
+              <mxPoint x="2728" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="neHLebJFJk5EQAtmWMn2-52" value="PerceptionAggregatorWrapper RUN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2215" y="1080.5" width="185" height="40" as="geometry" />
         </mxCell>
@@ -987,6 +1003,12 @@
               <mxPoint x="2308" y="1240" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="neHLebJFJk5EQAtmWMn2-117" value="ProcessPipelineWithLatestBuffer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2430" y="1290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="neHLebJFJk5EQAtmWMn2-119" value="GetResultAndSend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2635" y="1290" width="185" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
