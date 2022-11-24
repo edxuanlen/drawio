@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T13:15:45.289Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eHqIWd-OpyPCMep_OAtD" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T13:16:45.596Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wQ7SnTyCmWu_qjbJsE57" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="9345" dy="2159" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8200" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -681,7 +681,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-386" value="template &lt;typename Proxy, typename HandleType, typename DataType&gt;&#xa; Adsfi::DataReceiveBase" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#80FF00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1290" y="694" width="460" height="186" as="geometry" />
+          <mxGeometry x="1280" y="694" width="460" height="186" as="geometry" />
         </mxCell>
         <mxCell id="mTr-Pit7XFirMjPEWSAB-387" value="- std::condition_variable condi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" parent="mTr-Pit7XFirMjPEWSAB-386" vertex="1">
           <mxGeometry y="26" width="460" height="30" as="geometry" />
@@ -1102,7 +1102,7 @@
         <mxCell id="neHLebJFJk5EQAtmWMn2-174" value="+ SendOneData(std::shared_ptr&lt;DataType&gt;&amp; data) : HafStatus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="neHLebJFJk5EQAtmWMn2-170">
           <mxGeometry y="216" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="neHLebJFJk5EQAtmWMn2-176" value="+ SendingData() : void" style="text;strokeColor=none;fillColor=#80FF00;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="neHLebJFJk5EQAtmWMn2-170">
+        <mxCell id="neHLebJFJk5EQAtmWMn2-176" value="+ virtual SendingData() : void" style="text;strokeColor=none;fillColor=#80FF00;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;spacing=0;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="neHLebJFJk5EQAtmWMn2-170">
           <mxGeometry y="246" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="neHLebJFJk5EQAtmWMn2-180" value="RegisterHandle" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
